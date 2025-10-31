@@ -1,21 +1,23 @@
-# Aphex Type B Aural Exciter
+[README.md]
 
-This repository contains simulations and real-time implementation for a
-virtual analog model of the Aphex Type B Aural Exciter.
+# Aphex-Exciter
 
-![Pic](https://cdn.shopify.com/s/files/1/2604/0858/products/Aphex_Aural_Exciter_Type_B_1024x1024@2x.jpg?v=1525925116)
+<p align="center">
+  <a href="https://github.com/whisprer/aphex-exciter/releases"> 
+    <img src="https://img.shields.io/github/v/release/whisprer/aphex-exciter?color=4CAF50&label=release" alt="Release Version"> 
+  </a>
+  <a href="https://github.com/whisprer/aphex-exciter/actions"> 
+    <img src="https://img.shields.io/github/actions/workflow/status/whisprer/aphex-exciter/lint-and-plot.yml?label=build" alt="Build Status"> 
+  </a>
+</p>
 
-# Simulations
+![Commits](https://img.shields.io/github/commit-activity/m/whisprer/aphex-exciter?label=commits) 
+![Last Commit](https://img.shields.io/github/last-commit/whisprer/aphex-exciter) 
+![Issues](https://img.shields.io/github/issues/whisprer/aphex-exciter) 
+[![Version](https://img.shields.io/badge/version-3.1.1-blue.svg)](https://github.com/whisprer/aphex-exciter) 
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey.svg)](https://www.microsoft.com/windows)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-Simulations are done in `Jupyter Notebook`. Simulation code for various
-sections of the circuit can be found in the 
-[Simulations]([./Simulations](https://github.com/jatinchowdhury18/Aphex_Exciter/tree/master/Simulations)) folder.
-
-For an in-depth discussion of the Tone circuit, see [![NBViewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jatinchowdhury18/Aphex_Exciter/blob/master/Simulations/Filter.ipynb)
-
-# Implementation
-Implementation is being done using [JUCE](https://github.com/WeAreROLI/JUCE).
-Individual circuit components are each being made as a separate JUCE project,
-as well as a full implementation combining all of the subcomponents.
-
-Circuit schematic: https://i.imgur.com/PT9lUi6.gif
+<p align="center">
+  <img src="aphex-exciter-banner.png" width="850" alt="Aphex-Exciter Banner">
